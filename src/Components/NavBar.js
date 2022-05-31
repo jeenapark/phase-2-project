@@ -13,6 +13,7 @@ function NavBar() {
 
     return (
         <Container>
+            <h1></h1>
             <TriviaContainer questions={questions}/>
         </Container>
     )

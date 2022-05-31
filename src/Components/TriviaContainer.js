@@ -9,10 +9,10 @@ function TriviaContainer({ questions }) {
     });
 
     return (
-        <Card.group itemsPerRow={6}>
+        <Card.Group itemsPerRow={6}>
             <h1>hello from trivia questions</h1>
             {renderEachQuestion}
-        </Card.group>
+        </Card.Group>
     )
 }
 
