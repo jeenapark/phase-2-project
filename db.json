@@ -1,7 +1,7 @@
 {
   "results": [
     {
-      "category": "Entertainment: Cartoon & Animations",
+      "category": "Entertainment",
       "type": "boolean",
       "difficulty": "easy",
       "question": "In the Shrek film franchise, Donkey is played by Eddie Murphy.",
@@ -11,7 +11,7 @@
       ]
     },
     {
-      "category": "Entertainment: Japanese Anime & Manga",
+      "category": "Entertainment",
       "type": "boolean",
       "difficulty": "easy",
       "question": "Clefairy was intended to be Ash's starting Pokemon in the pilot episode of the cartoon.",
@@ -31,7 +31,7 @@
       ]
     },
     {
-      "category": "Entertainment: Video Games",
+      "category": "Entertainment",
       "type": "boolean",
       "difficulty": "easy",
       "question": "English new wave musician Gary Numan founded the video game development company Facepunch Studios in March 2009.",
@@ -61,7 +61,7 @@
       ]
     },
     {
-      "category": "Entertainment: Music",
+      "category": "Entertainment",
       "type": "boolean",
       "difficulty": "easy",
       "question": "Eurobeat is primarily an Italian genre of music.",
@@ -81,7 +81,7 @@
       ]
     },
     {
-      "category": "Entertainment: Film",
+      "category": "Entertainment",
       "type": "boolean",
       "difficulty": "easy",
       "question": "The 2010 film The Social Network is a biographical drama film about MySpace founder Tom Anderson.",
@@ -101,7 +101,7 @@
       ]
     },
     {
-      "category": "Entertainment: Video Games",
+      "category": "Entertainment",
       "type": "boolean",
       "difficulty": "easy",
       "question": "Half-Life runs on the Source Engine.",
@@ -111,7 +111,7 @@
       ]
     },
     {
-      "category": "Entertainment: Video Games",
+      "category": "Entertainment",
       "type": "boolean",
       "difficulty": "easy",
       "question": "Donkey Kong was originally set to be a Popeye arcade game.",
@@ -121,7 +121,7 @@
       ]
     },
     {
-      "category": "Entertainment: Video Games",
+      "category": "Entertainment",
       "type": "boolean",
       "difficulty": "easy",
       "question": "Pac-Man was invented by the designer Toru Iwatani while he was eating pizza.",
@@ -141,7 +141,7 @@
       ]
     },
     {
-      "category": "Entertainment: Video Games",
+      "category": "Entertainment",
       "type": "boolean",
       "difficulty": "easy",
       "question": "Tetris is the #1 best-selling video game of all-time.",
@@ -151,7 +151,7 @@
       ]
     },
     {
-      "category": "Science & Nature",
+      "category": "Science",
       "type": "boolean",
       "difficulty": "easy",
       "question": "An atom contains a nucleus.",
@@ -191,7 +191,7 @@
       ]
     },
     {
-      "category": "Entertainment: Board Games",
+      "category": "Entertainment",
       "type": "boolean",
       "difficulty": "easy",
       "question": "The card game Munchkin won the 2001 Origins Award for Best Traditional Card Game.",
@@ -201,7 +201,7 @@
       ]
     },
     {
-      "category": "Entertainment: Video Games",
+      "category": "Entertainment",
       "type": "boolean",
       "difficulty": "easy",
       "question": "Solid Snake is actually a clone from the DNA of Big Boss in the Metal Gear Solid series' history.",
@@ -211,7 +211,7 @@
       ]
     },
     {
-      "category": "Entertainment: Video Games",
+      "category": "Entertainment",
       "type": "boolean",
       "difficulty": "easy",
       "question": "Gordon Freeman, the protagonist of Half-Life, is said to have once had a ponytail.",
@@ -221,7 +221,7 @@
       ]
     },
     {
-      "category": "Entertainment: Video Games",
+      "category": "Entertainment",
       "type": "boolean",
       "difficulty": "easy",
       "question": "The ultimate phrase used by Pharah from Overwatch is: Justice rains from above!",
@@ -231,7 +231,7 @@
       ]
     },
     {
-      "category": "Entertainment: Video Games",
+      "category": "Entertainment",
       "type": "boolean",
       "difficulty": "easy",
       "question": "The PlayStation was originally a joint project between Sega and Sony that was a Sega Genesis with a disc drive.",
@@ -251,7 +251,7 @@
       ]
     },
     {
-      "category": "Entertainment: Video Games",
+      "category": "Entertainment",
       "type": "boolean",
       "difficulty": "easy",
       "question": "The main playable character of the 2015 RPG Undertale is a monster.",
@@ -261,7 +261,7 @@
       ]
     },
     {
-      "category": "Entertainment: Books",
+      "category": "Entertainment",
       "type": "boolean",
       "difficulty": "easy",
       "question": "Stephen Chbosky wrote the book The Perks of Being A Wallflower.",
@@ -271,7 +271,7 @@
       ]
     },
     {
-      "category": "Entertainment: Video Games",
+      "category": "Entertainment",
       "type": "boolean",
       "difficulty": "easy",
       "question": "Rebecca Chambers does not appear in any Resident Evil except for the original Resident Evil and the Gamecube remake.",
@@ -281,7 +281,7 @@
       ]
     },
     {
-      "category": "Entertainment: Japanese Anime & Manga",
+      "category": "Entertainment",
       "type": "boolean",
       "difficulty": "easy",
       "question": "The name of the attackKamehameha in Dragon Ball Z was named after a famous king of Hawaii.",
@@ -291,7 +291,7 @@
       ]
     },
     {
-      "category": "Science: Gadgets",
+      "category": "Science",
       "type": "boolean",
       "difficulty": "easy",
       "question": "Microphones can be used not only to pick up sound, but also to project sound similar to a speaker.",
@@ -301,7 +301,7 @@
       ]
     },
     {
-      "category": "Entertainment: Video Games",
+      "category": "Entertainment",
       "type": "boolean",
       "difficulty": "easy",
       "question": "In the game Dead by Daylight, the killer Michael Myers is refered to as 'The Shape'.",
@@ -321,7 +321,7 @@
       ]
     },
     {
-      "category": "Entertainment: Video Games",
+      "category": "Entertainment",
       "type": "boolean",
       "difficulty": "easy",
       "question": "In Terraria, you can craft the Cell Phone pre-hardmode.",
@@ -341,7 +341,7 @@
       ]
     },
     {
-      "category": "Entertainment: Video Games",
+      "category": "Entertainment",
       "type": "boolean",
       "difficulty": "easy",
       "question": "In 'Undertale', the main character of the game is Sans.",
@@ -361,7 +361,7 @@
       ]
     },
     {
-      "category": "Entertainment: Television",
+      "category": "Entertainment",
       "type": "boolean",
       "difficulty": "easy",
       "question": "In Battlestar Galactica (2004), Cylons were created by man as cybernetic workers and soldiers.",
@@ -371,7 +371,7 @@
       ]
     },
     {
-      "category": "Science: Computers",
+      "category": "Science",
       "type": "boolean",
       "difficulty": "easy",
       "question": "Linux was first created as an alternative to Windows XP.",
@@ -381,7 +381,7 @@
       ]
     },
     {
-      "category": "Science: Mathematics",
+      "category": "Science",
       "type": "boolean",
       "difficulty": "easy",
       "question": "The sum of any two odd integers is odd.",
@@ -401,7 +401,7 @@
       ]
     },
     {
-      "category": "Entertainment: Video Games",
+      "category": "Entertainment",
       "type": "boolean",
       "difficulty": "easy",
       "question": "'Sonic the Hedgehog' originally was going to have a time travel system.",
@@ -411,7 +411,7 @@
       ]
     },
     {
-      "category": "Entertainment: Books",
+      "category": "Entertainment",
       "type": "boolean",
       "difficulty": "easy",
       "question": "'Green Eggs and Ham' consists of only 50 different words.",
@@ -421,7 +421,7 @@
       ]
     },
     {
-      "category": "Entertainment: Video Games",
+      "category": "Entertainment",
       "type": "boolean",
       "difficulty": "easy",
       "question": "In the 'S.T.A.L.K.E.R.' series, the Freedom faction wishes to destroy the supernatural area known as  'the Zone'.",
@@ -441,7 +441,7 @@
       ]
     },
     {
-      "category": "Science & Nature",
+      "category": "Science",
       "type": "boolean",
       "difficulty": "easy",
       "question": "Water always boils at 100 deg C, 212 deg F, 373.15K, no matter where you are.",
@@ -461,7 +461,7 @@
       ]
     },
     {
-      "category": "Entertainment: Video Games",
+      "category": "Entertainment",
       "type": "boolean",
       "difficulty": "easy",
       "question": "Doki Doki Literature Club was developed in Japan.",
@@ -471,7 +471,7 @@
       ]
     },
     {
-      "category": "Entertainment: Video Games",
+      "category": "Entertainment",
       "type": "boolean",
       "difficulty": "easy",
       "question": "In the video game 'Splatoon', the playable characters were originally going to be rabbits instead of squids.",
@@ -491,7 +491,7 @@
       ]
     },
     {
-      "category": "Entertainment: Books",
+      "category": "Entertainment",
       "type": "boolean",
       "difficulty": "easy",
       "question": "Shub-Niggurath is a creature that was created by J. R. R. Tolkien in his novel 'The Lord of The Rings'.",
