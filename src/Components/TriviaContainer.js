@@ -2,9 +2,9 @@ import React from "react";
 import { Card } from "semantic-ui-react";
 import TriviaCard from "./TriviaCard";
 
-function TriviaContainer({ questions }) {
+function TriviaContainer({ filterByCategory }) {
 
-    const renderEachQuestion = questions.map((question) => {
+    const renderEachQuestion = filterByCategory.map((question) => {
         return <TriviaCard key={question.question} question={question}/>
     });
 

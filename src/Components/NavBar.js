@@ -1,22 +1,25 @@
 import React, { useState, useEffect } from "react";
-import { Container } from "semantic-ui-react";
-import TriviaContainer from "./TriviaContainer";
-import Categories from "./Categories";
+import About from "./About";
+import Form from "./Form";
+import { BrowserRouter, Route, Switch, NavLink } from "react-router-dom";
+
 
 function NavBar() {
-    const [ questions, setQuestions ] = useState([]);
-
-    useEffect(() => {
-        fetch("http://localhost:3000/results")
-        .then((resp) => resp.json())
-        .then((data) => setQuestions(data));
-    }, [])
 
     return (
-        <Container>
-            <Categories />
-            <TriviaContainer questions={questions}/>
-        </Container>
+        <header>
+            <nav>
+                <NavLink to="/">
+                    <h2>About The Game</h2>
+                </NavLink>
+                <NavLink to="/questions/new">
+                    <h2>Submit a new question</h2>
+                </NavLink>
+                <NavLink to="/questions">
+                    <h2>Play</h2>
+                </NavLink>
+            </nav>
+        </header>
     )
 }
 
