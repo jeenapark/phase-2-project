@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Container } from "semantic-ui-react";
 import TriviaContainer from "./TriviaContainer";
+import Categories from "./Categories";
 
 function NavBar() {
     const [ questions, setQuestions ] = useState([]);
@@ -13,7 +14,7 @@ function NavBar() {
 
     return (
         <Container>
-            <h1></h1>
+            <Categories />
             <TriviaContainer questions={questions}/>
         </Container>
     )

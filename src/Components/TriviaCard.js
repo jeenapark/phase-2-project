@@ -5,17 +5,12 @@ function TriviaCard({ question }) {
     
     return (
         <Card>
-            <>
-            <div>
-                {question.question}
+            <div className="content">
+                <div className="header">{question.question}</div>
             </div>
-            <div>
-                {question.category}
+            <div className="extra content">
+                <span>{question.category}</span>
             </div>
-            <div>
-                {question.difficulty}
-            </div>
-            </>
         </Card>
     )
 }

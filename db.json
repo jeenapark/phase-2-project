@@ -4,7 +4,7 @@
       "category": "Entertainment: Cartoon & Animations",
       "type": "boolean",
       "difficulty": "easy",
-      "question": "In the &quot;Shrek&quot; film franchise, Donkey is played by Eddie Murphy.",
+      "question": "In the Shrek film franchise, Donkey is played by Eddie Murphy.",
       "correct_answer": "True",
       "incorrect_answers": [
         "False"
@@ -14,7 +14,7 @@
       "category": "Entertainment: Japanese Anime & Manga",
       "type": "boolean",
       "difficulty": "easy",
-      "question": "Clefairy was intended to be Ash&#039;s starting Pok&eacute;mon in the pilot episode of the cartoon.",
+      "question": "Clefairy was intended to be Ash's starting Pokemon in the pilot episode of the cartoon.",
       "correct_answer": "True",
       "incorrect_answers": [
         "False"
@@ -84,7 +84,7 @@
       "category": "Entertainment: Film",
       "type": "boolean",
       "difficulty": "easy",
-      "question": "The 2010 film &quot;The Social Network&quot; is a biographical drama film about MySpace founder Tom Anderson.",
+      "question": "The 2010 film The Social Network is a biographical drama film about MySpace founder Tom Anderson.",
       "correct_answer": "False",
       "incorrect_answers": [
         "True"
@@ -104,7 +104,7 @@
       "category": "Entertainment: Video Games",
       "type": "boolean",
       "difficulty": "easy",
-      "question": "&quot;Half-Life 2&quot; runs on the Source Engine.",
+      "question": "Half-Life runs on the Source Engine.",
       "correct_answer": "True",
       "incorrect_answers": [
         "False"
@@ -194,7 +194,7 @@
       "category": "Entertainment: Board Games",
       "type": "boolean",
       "difficulty": "easy",
-      "question": "The card game &quot;Munchkin&quot; won the 2001 Origins Award for Best Traditional Card Game.",
+      "question": "The card game Munchkin won the 2001 Origins Award for Best Traditional Card Game.",
       "correct_answer": "True",
       "incorrect_answers": [
         "False"
@@ -204,7 +204,7 @@
       "category": "Entertainment: Video Games",
       "type": "boolean",
       "difficulty": "easy",
-      "question": "Solid Snake is actually a clone from the DNA of Big Boss in the Metal Gear Solid series&#039; history.",
+      "question": "Solid Snake is actually a clone from the DNA of Big Boss in the Metal Gear Solid series' history.",
       "correct_answer": "True",
       "incorrect_answers": [
         "False"
@@ -214,7 +214,7 @@
       "category": "Entertainment: Video Games",
       "type": "boolean",
       "difficulty": "easy",
-      "question": "Gordon Freeman, the protagonist of &quot;Half-Life&quot;, is said to have once had a ponytail.",
+      "question": "Gordon Freeman, the protagonist of Half-Life, is said to have once had a ponytail.",
       "correct_answer": "True",
       "incorrect_answers": [
         "False"
@@ -224,7 +224,7 @@
       "category": "Entertainment: Video Games",
       "type": "boolean",
       "difficulty": "easy",
-      "question": "The ultimate phrase used by Pharah from Overwatch is: &quot;Justice rains from above!&quot;",
+      "question": "The ultimate phrase used by Pharah from Overwatch is: Justice rains from above!",
       "correct_answer": "True",
       "incorrect_answers": [
         "False"
@@ -254,7 +254,7 @@
       "category": "Entertainment: Video Games",
       "type": "boolean",
       "difficulty": "easy",
-      "question": "The main playable character of the 2015 RPG &quot;Undertale&quot; is a monster.",
+      "question": "The main playable character of the 2015 RPG Undertale is a monster.",
       "correct_answer": "False",
       "incorrect_answers": [
         "True"
@@ -264,7 +264,7 @@
       "category": "Entertainment: Books",
       "type": "boolean",
       "difficulty": "easy",
-      "question": "Stephen Chbosky wrote the book &#039;The Perks of Being A Wallflower&#039;.",
+      "question": "Stephen Chbosky wrote the book The Perks of Being A Wallflower.",
       "correct_answer": "True",
       "incorrect_answers": [
         "False"
@@ -284,7 +284,7 @@
       "category": "Entertainment: Japanese Anime & Manga",
       "type": "boolean",
       "difficulty": "easy",
-      "question": "The name of the attack &quot;Kamehameha&quot; in Dragon Ball Z was named after a famous king of Hawaii.",
+      "question": "The name of the attackKamehameha in Dragon Ball Z was named after a famous king of Hawaii.",
       "correct_answer": "True",
       "incorrect_answers": [
         "False"
@@ -304,7 +304,7 @@
       "category": "Entertainment: Video Games",
       "type": "boolean",
       "difficulty": "easy",
-      "question": "In the game Dead by Daylight, the killer Michael Myers is refered to as &quot;The Shape&quot;.",
+      "question": "In the game Dead by Daylight, the killer Michael Myers is refered to as 'The Shape'.",
       "correct_answer": "True",
       "incorrect_answers": [
         "False"
@@ -334,7 +334,7 @@
       "category": "Politics",
       "type": "boolean",
       "difficulty": "easy",
-      "question": "One of Barack Obama&#039;s United States presidential campaign slogan&#039;s was &quot;Yes We Can&quot;.",
+      "question": "One of Barack Obamas' United States presidential campaign slogan's was 'Yes We Can'.",
       "correct_answer": "True",
       "incorrect_answers": [
         "False"
@@ -344,7 +344,7 @@
       "category": "Entertainment: Video Games",
       "type": "boolean",
       "difficulty": "easy",
-      "question": "In &quot;Undertale&quot;, the main character of the game is Sans.",
+      "question": "In 'Undertale', the main character of the game is Sans.",
       "correct_answer": "False",
       "incorrect_answers": [
         "True"
@@ -404,7 +404,7 @@
       "category": "Entertainment: Video Games",
       "type": "boolean",
       "difficulty": "easy",
-      "question": "&quot;Sonic the Hedgehog 2&quot; originally was going to have a time travel system.",
+      "question": "'Sonic the Hedgehog' originally was going to have a time travel system.",
       "correct_answer": "True",
       "incorrect_answers": [
         "False"
@@ -414,7 +414,7 @@
       "category": "Entertainment: Books",
       "type": "boolean",
       "difficulty": "easy",
-      "question": "&quot;Green Eggs and Ham&quot; consists of only 50 different words.",
+      "question": "'Green Eggs and Ham' consists of only 50 different words.",
       "correct_answer": "True",
       "incorrect_answers": [
         "False"
@@ -424,7 +424,7 @@
       "category": "Entertainment: Video Games",
       "type": "boolean",
       "difficulty": "easy",
-      "question": "In the &quot;S.T.A.L.K.E.R.&quot; series, the Freedom faction wishes to destroy the supernatural area known as  &quot;the Zone&quot;.",
+      "question": "In the 'S.T.A.L.K.E.R.' series, the Freedom faction wishes to destroy the supernatural area known as  'the Zone'.",
       "correct_answer": "False",
       "incorrect_answers": [
         "True"
@@ -444,7 +444,7 @@
       "category": "Science & Nature",
       "type": "boolean",
       "difficulty": "easy",
-      "question": "Water always boils at 100&deg;C, 212&deg;F, 373.15K, no matter where you are.",
+      "question": "Water always boils at 100 deg C, 212 deg F, 373.15K, no matter where you are.",
       "correct_answer": "False",
       "incorrect_answers": [
         "True"
@@ -474,7 +474,7 @@
       "category": "Entertainment: Video Games",
       "type": "boolean",
       "difficulty": "easy",
-      "question": "In the video game &quot;Splatoon&quot;, the playable characters were originally going to be rabbits instead of squids.",
+      "question": "In the video game 'Splatoon', the playable characters were originally going to be rabbits instead of squids.",
       "correct_answer": "True",
       "incorrect_answers": [
         "False"
@@ -494,7 +494,7 @@
       "category": "Entertainment: Books",
       "type": "boolean",
       "difficulty": "easy",
-      "question": "Shub-Niggurath is a creature that was created by \tJ. R. R. Tolkien in his novel &quot;The Lord of The Rings&quot;.",
+      "question": "Shub-Niggurath is a creature that was created by J. R. R. Tolkien in his novel 'The Lord of The Rings'.",
       "correct_answer": "False",
       "incorrect_answers": [
         "True"
