@@ -16,6 +16,11 @@ function App() {
         .then((data) => setQuestions(data));
     }, [])
 
+  function handleAddQuestion(newQuestion) {
+    console.log("handlequestion", newQuestion);
+    setQuestions([newQuestion, ...questions]);
+  }
+
   return (
     <div className="App">
         <NavBar />
@@ -24,7 +29,7 @@ function App() {
             <About />
           </Route>
           <Route path="/questions/new">
-            <Form />
+            <Form handleAddQuestion={handleAddQuestion} />
           </Route>
           <Route path="/questions">
             <ChooseCategory questions={questions}/>
