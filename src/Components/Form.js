@@ -30,7 +30,7 @@ function Form ({ handleAddQuestion }) {
             question: formData.question,
             correct_answer: formData.correct_answer,
             incorrect_answers: [
-                !formData.correct_answer
+                formData.correct_answer === "True" ? "False" : "True" 
             ]
         };
 
@@ -45,8 +45,6 @@ function Form ({ handleAddQuestion }) {
         })
         .then(resp => resp.json())
         .then(data => {
-            console.log(data);
-            console.log("jeena");
             handleAddQuestion(data);
             setFormData({
                 category: "",
@@ -64,7 +62,7 @@ function Form ({ handleAddQuestion }) {
     return (
         <form onSubmit={submitForm}>
             <h3>Add New Trivia Question</h3>
-            <input onChange={handleChange} name="question" type="text" placeholder="New trivia question..."/>
+            <input onChange={handleChange} value={formData.question} name="question" type="text" placeholder="New trivia question..."/>
                 <select onChange={handleChange} name="category" id="dropDown">
                     <option value="">Select a category</option>
                     <option value="Entertainment">Entertainment</option>
@@ -76,10 +74,10 @@ function Form ({ handleAddQuestion }) {
                     <option value="Science">Science</option>
                     <option value="Vehicles">Vehicles</option>
                 </select>
-                <select onChange={handleChange} name="correct_answer">
-                    <option value={true}>True</option>
-                    <option value={false}>False</option>
-                </select>
+                    <input onChange={handleChange} type="radio" name="correct_answer" value="True"/>
+                    <label>True</label>
+                    <input onChange={handleChange} type="radio" name="correct_answer" value="False"/>
+                    <label>False</label>
             <input type="submit" />
         </form>
     )

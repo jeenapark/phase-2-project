@@ -554,51 +554,43 @@
       "category": "Sports",
       "type": "boolean",
       "difficulty": "easy",
-      "question": "lk;j",
-      "correct_answer": "false",
+      "question": "new trivia",
+      "correct_answer": "true",
       "incorrect_answers": [
-        [
-          ""
-        ]
+        false
       ],
       "id": 51
     },
     {
-      "category": "",
+      "category": "Sports",
       "type": "boolean",
       "difficulty": "easy",
-      "question": "",
-      "correct_answer": "",
+      "question": "lkj;lk",
+      "correct_answer": "true",
       "incorrect_answers": [
-        [
-          ""
-        ]
+        "False"
       ],
       "id": 52
     },
     {
-      "category": "",
+      "category": "Sports",
       "type": "boolean",
       "difficulty": "easy",
-      "question": "",
-      "correct_answer": "",
+      "question": "new trivia",
+      "correct_answer": "true",
       "incorrect_answers": [
-        [
-          ""
-        ]
+        "True"
       ],
       "id": 53
     },
     {
-      "category": "Entertainment",
+      "category": "General Knowledge",
       "type": "boolean",
       "difficulty": "easy",
-      "question": ";lkj",
-      "correct_answer": "False",
+      "question": "lkj;lkj",
+      "correct_answer": "True",
       "incorrect_answers": [
-        [
-          ""
-        ]
+        "False"
       ],
       "id": 54
     },
@@ -606,100 +598,23 @@
       "category": "History",
       "type": "boolean",
       "difficulty": "easy",
-      "question": "lkj;lkj",
-      "correct_answer": "False",
+      "question": "new trivia",
+      "correct_answer": "false",
       "incorrect_answers": [
-        false
+        "true"
       ],
       "id": 55
     },
     {
-      "category": "Sports",
+      "category": "History",
       "type": "boolean",
       "difficulty": "easy",
-      "question": "l;kj;;lk",
-      "correct_answer": "False",
+      "question": "new trivia",
+      "correct_answer": "true",
       "incorrect_answers": [
-        false
+        "false"
       ],
       "id": 56
-    },
-    {
-      "category": "History",
-      "type": "boolean",
-      "difficulty": "easy",
-      "question": "l;kj",
-      "correct_answer": "false",
-      "incorrect_answers": [
-        false
-      ],
-      "id": 57
-    },
-    {
-      "category": "History",
-      "type": "boolean",
-      "difficulty": "easy",
-      "question": "lkj;lkj",
-      "correct_answer": "false",
-      "incorrect_answers": [
-        false
-      ],
-      "id": 58
-    },
-    {
-      "category": "History",
-      "type": "boolean",
-      "difficulty": "easy",
-      "question": ";lkjk;lj",
-      "correct_answer": "true",
-      "incorrect_answers": [
-        false
-      ],
-      "id": 59
-    },
-    {
-      "category": "History",
-      "type": "boolean",
-      "difficulty": "easy",
-      "question": ";lkjklj",
-      "correct_answer": "false",
-      "incorrect_answers": [
-        false
-      ],
-      "id": 60
-    },
-    {
-      "category": "General Knowledge",
-      "type": "boolean",
-      "difficulty": "easy",
-      "question": "l;kj;kl",
-      "correct_answer": "",
-      "incorrect_answers": [
-        true
-      ],
-      "id": 61
-    },
-    {
-      "category": "",
-      "type": "boolean",
-      "difficulty": "easy",
-      "question": "",
-      "correct_answer": "true",
-      "incorrect_answers": [
-        false
-      ],
-      "id": 62
-    },
-    {
-      "category": "Sports",
-      "type": "boolean",
-      "difficulty": "easy",
-      "question": "l;kj;lkj",
-      "correct_answer": "false",
-      "incorrect_answers": [
-        false
-      ],
-      "id": 63
     }
   ]
 }
