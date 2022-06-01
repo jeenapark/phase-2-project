@@ -1,6 +1,7 @@
 {
   "results": [
     {
+      "Id": 1,
       "category": "Entertainment",
       "type": "boolean",
       "difficulty": "easy",
@@ -11,6 +12,7 @@
       ]
     },
     {
+      "Id": 2,
       "category": "Entertainment",
       "type": "boolean",
       "difficulty": "easy",
@@ -21,6 +23,7 @@
       ]
     },
     {
+      "Id": 3,
       "category": "History",
       "type": "boolean",
       "difficulty": "easy",
@@ -31,6 +34,7 @@
       ]
     },
     {
+      "Id": 4,
       "category": "Entertainment",
       "type": "boolean",
       "difficulty": "easy",
@@ -41,6 +45,7 @@
       ]
     },
     {
+      "Id": 5,
       "category": "Sports",
       "type": "boolean",
       "difficulty": "easy",
@@ -51,6 +56,7 @@
       ]
     },
     {
+      "Id": 6,
       "category": "General Knowledge",
       "type": "boolean",
       "difficulty": "easy",
@@ -61,6 +67,7 @@
       ]
     },
     {
+      "Id": 7,
       "category": "Entertainment",
       "type": "boolean",
       "difficulty": "easy",
@@ -71,6 +78,7 @@
       ]
     },
     {
+      "Id": 8,
       "category": "History",
       "type": "boolean",
       "difficulty": "easy",
@@ -81,6 +89,7 @@
       ]
     },
     {
+      "Id": 9,
       "category": "Entertainment",
       "type": "boolean",
       "difficulty": "easy",
@@ -91,6 +100,7 @@
       ]
     },
     {
+      "Id": 10,
       "category": "Politics",
       "type": "boolean",
       "difficulty": "easy",
@@ -101,6 +111,7 @@
       ]
     },
     {
+      "Id": 11,
       "category": "Entertainment",
       "type": "boolean",
       "difficulty": "easy",
@@ -111,6 +122,7 @@
       ]
     },
     {
+      "Id": 12,
       "category": "Entertainment",
       "type": "boolean",
       "difficulty": "easy",
@@ -121,6 +133,7 @@
       ]
     },
     {
+      "Id": 13,
       "category": "Entertainment",
       "type": "boolean",
       "difficulty": "easy",
@@ -131,6 +144,7 @@
       ]
     },
     {
+      "Id": 14,
       "category": "Animals",
       "type": "boolean",
       "difficulty": "easy",
@@ -141,6 +155,7 @@
       ]
     },
     {
+      "Id": 15,
       "category": "Entertainment",
       "type": "boolean",
       "difficulty": "easy",
@@ -151,6 +166,7 @@
       ]
     },
     {
+      "Id": 16,
       "category": "Science",
       "type": "boolean",
       "difficulty": "easy",
@@ -161,6 +177,7 @@
       ]
     },
     {
+      "Id": 17,
       "category": "Politics",
       "type": "boolean",
       "difficulty": "easy",
@@ -171,6 +188,7 @@
       ]
     },
     {
+      "Id": 18,
       "category": "Politics",
       "type": "boolean",
       "difficulty": "easy",
@@ -181,6 +199,7 @@
       ]
     },
     {
+      "Id": 19,
       "category": "General Knowledge",
       "type": "boolean",
       "difficulty": "easy",
@@ -191,6 +210,7 @@
       ]
     },
     {
+      "Id": 20,
       "category": "Entertainment",
       "type": "boolean",
       "difficulty": "easy",
@@ -201,6 +221,7 @@
       ]
     },
     {
+      "Id": 21,
       "category": "Entertainment",
       "type": "boolean",
       "difficulty": "easy",
@@ -211,6 +232,7 @@
       ]
     },
     {
+      "Id": 22,
       "category": "Entertainment",
       "type": "boolean",
       "difficulty": "easy",
@@ -221,6 +243,7 @@
       ]
     },
     {
+      "Id": 23,
       "category": "Entertainment",
       "type": "boolean",
       "difficulty": "easy",
@@ -231,6 +254,7 @@
       ]
     },
     {
+      "Id": 24,
       "category": "Entertainment",
       "type": "boolean",
       "difficulty": "easy",
@@ -241,6 +265,7 @@
       ]
     },
     {
+      "Id": 25,
       "category": "Vehicles",
       "type": "boolean",
       "difficulty": "easy",
@@ -251,6 +276,7 @@
       ]
     },
     {
+      "Id": 26,
       "category": "Entertainment",
       "type": "boolean",
       "difficulty": "easy",
@@ -261,6 +287,7 @@
       ]
     },
     {
+      "Id": 27,
       "category": "Entertainment",
       "type": "boolean",
       "difficulty": "easy",
@@ -271,6 +298,7 @@
       ]
     },
     {
+      "Id": 28,
       "category": "Entertainment",
       "type": "boolean",
       "difficulty": "easy",
@@ -281,6 +309,7 @@
       ]
     },
     {
+      "Id": 29,
       "category": "Entertainment",
       "type": "boolean",
       "difficulty": "easy",
@@ -291,6 +320,7 @@
       ]
     },
     {
+      "Id": 30,
       "category": "Science",
       "type": "boolean",
       "difficulty": "easy",
@@ -301,6 +331,7 @@
       ]
     },
     {
+      "Id": 31,
       "category": "Entertainment",
       "type": "boolean",
       "difficulty": "easy",
@@ -311,6 +342,7 @@
       ]
     },
     {
+      "Id": 32,
       "category": "General Knowledge",
       "type": "boolean",
       "difficulty": "easy",
@@ -321,6 +353,7 @@
       ]
     },
     {
+      "Id": 33,
       "category": "Entertainment",
       "type": "boolean",
       "difficulty": "easy",
@@ -331,6 +364,7 @@
       ]
     },
     {
+      "Id": 34,
       "category": "Politics",
       "type": "boolean",
       "difficulty": "easy",
@@ -341,6 +375,7 @@
       ]
     },
     {
+      "Id": 35,
       "category": "Entertainment",
       "type": "boolean",
       "difficulty": "easy",
@@ -351,6 +386,7 @@
       ]
     },
     {
+      "Id": 36,
       "category": "Animals",
       "type": "boolean",
       "difficulty": "easy",
@@ -361,6 +397,7 @@
       ]
     },
     {
+      "Id": 37,
       "category": "Entertainment",
       "type": "boolean",
       "difficulty": "easy",
@@ -371,6 +408,7 @@
       ]
     },
     {
+      "Id": 38,
       "category": "Science",
       "type": "boolean",
       "difficulty": "easy",
@@ -381,6 +419,7 @@
       ]
     },
     {
+      "Id": 39,
       "category": "Science",
       "type": "boolean",
       "difficulty": "easy",
@@ -391,6 +430,7 @@
       ]
     },
     {
+      "Id": 40,
       "category": "General Knowledge",
       "type": "boolean",
       "difficulty": "easy",
@@ -401,6 +441,7 @@
       ]
     },
     {
+      "Id": 41,
       "category": "Entertainment",
       "type": "boolean",
       "difficulty": "easy",
@@ -411,6 +452,7 @@
       ]
     },
     {
+      "Id": 42,
       "category": "Entertainment",
       "type": "boolean",
       "difficulty": "easy",
@@ -421,6 +463,7 @@
       ]
     },
     {
+      "Id": 43,
       "category": "Entertainment",
       "type": "boolean",
       "difficulty": "easy",
@@ -431,6 +474,7 @@
       ]
     },
     {
+      "Id": 44,
       "category": "Vehicles",
       "type": "boolean",
       "difficulty": "easy",
@@ -441,6 +485,7 @@
       ]
     },
     {
+      "Id": 45,
       "category": "Science",
       "type": "boolean",
       "difficulty": "easy",
@@ -451,6 +496,7 @@
       ]
     },
     {
+      "Id": 46,
       "category": "Animals",
       "type": "boolean",
       "difficulty": "easy",
@@ -461,6 +507,7 @@
       ]
     },
     {
+      "Id": 47,
       "category": "Entertainment",
       "type": "boolean",
       "difficulty": "easy",
@@ -471,6 +518,7 @@
       ]
     },
     {
+      "Id": 48,
       "category": "Entertainment",
       "type": "boolean",
       "difficulty": "easy",
@@ -481,6 +529,7 @@
       ]
     },
     {
+      "Id": 49,
       "category": "General Knowledge",
       "type": "boolean",
       "difficulty": "easy",
@@ -491,6 +540,7 @@
       ]
     },
     {
+      "Id": 50,
       "category": "Entertainment",
       "type": "boolean",
       "difficulty": "easy",
