@@ -30,11 +30,11 @@ function Form ({ handleAddQuestion }) {
             question: formData.question,
             correct_answer: formData.correct_answer,
             incorrect_answers: [
-                formData.incorrect_answers
+                !formData.correct_answer
             ]
         };
 
-        console.log()
+        console.log("newquestionobj", newQuestionObj);
 
         fetch("http://localhost:3000/results", {
             method: "POST",
@@ -77,12 +77,8 @@ function Form ({ handleAddQuestion }) {
                     <option value="Vehicles">Vehicles</option>
                 </select>
                 <select onChange={handleChange} name="correct_answer">
-                    <option value="true">True</option>
-                    <option value="false">False</option>
-                </select>
-                <select onChange={handleChange} name="incorrect_answers">
-                    <option value="true">True</option>
-                    <option value="false">False</option>
+                    <option value={true}>True</option>
+                    <option value={false}>False</option>
                 </select>
             <input type="submit" />
         </form>

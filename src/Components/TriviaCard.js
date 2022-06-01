@@ -13,11 +13,8 @@ function TriviaCard({ question, counter, setCounter }) {
     function handleAnswer(e) {
         e.preventDefault();
         questAnswer === question.correct_answer ? setCounter(counter => counter + 1) : setCounter(counter => counter - 1);
-        //increase counter by 1 if answer is correct, decrease if incorrect
     }
 
-  
-    
     return (
         <Card>
             <div className="content">
