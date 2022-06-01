@@ -9,7 +9,7 @@ function Form ({ handleAddQuestion }) {
             correct_answer: "",
             incorrect_answers: [
                 ""
-            ]
+            ],
     });
 
     function handleChange(e) {
@@ -37,12 +37,14 @@ function Form ({ handleAddQuestion }) {
         fetch("http://localhost:3000/results", {
             method: "POST",
             headers: {
-                "Content-Type" : "application/json",
+                "Content-Type": "application/json",
             },
             body: JSON.stringify(newQuestionObj)
         })
         .then(resp => resp.json())
         .then(data => {
+            console.log(data);
+            console.log("jeena");
             handleAddQuestion(data);
             setFormData({
                 category: "",
@@ -72,9 +74,9 @@ function Form ({ handleAddQuestion }) {
                     <option value="Science">Science</option>
                     <option value="Vehicles">Vehicles</option>
                 </select>
-            <input type="radio" name="correct_answer"/>
+            <input type="radio" name="correct_answer" value={true}/>
                 <label>True</label>
-            <input type="radio" name="correct_answer"/>
+            <input type="radio" name="correct_answer"value={false}/>
                 <label>False</label>
             <input type="submit" />
         </form>
