@@ -9,6 +9,7 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 function App() {
 
   const [ questions, setQuestions ] = useState([]);
+  const [ counter, setCounter ] = useState(0); 
 
     useEffect(() => {
         fetch("http://localhost:3000/results")
