@@ -17,12 +17,10 @@ function Form ({ handleAddQuestion }) {
     }
 
     function newAnswerTrue(e) {
-        e.preventDefault();
         setAnswer(true);
     }
 
     function newAnswerFalse(e) {
-        e.preventDefault();
         setAnswer(false);
     }
 
@@ -59,28 +57,32 @@ function Form ({ handleAddQuestion }) {
     }
 
     return (
-        <form onSubmit={submitForm}>
-            <h3>Add New Trivia Question</h3>
-            <input onChange={newQuestionText} value={formQuestion} name="question" type="text" placeholder="New trivia question..."/>
-                <select onChange={newCategory} value={category} name="category" id="dropDown">
-                    <option value="" disabled>Select a category</option>
-                    <option value="Entertainment">Entertainment</option>
-                    <option value="History">History</option>
-                    <option value="Sports">Sports</option>
-                    <option value="General Knowledge">General Knowledge</option>
-                    <option value="Politics">Politics</option>
-                    <option value="Animals">Animals</option>
-                    <option value="Science">Science</option>
-                    <option value="Vehicles">Vehicles</option>
-                </select>
-                <div>
-                    <input type="radio" name="correct_answer" value={answer} onChange={newAnswerTrue} checked={answer}/>
-                    <label>True</label>
-                    <input type="radio" name="correct_answer" value={!answer} onChange={newAnswerFalse}/>
-                    <label>False</label>
-                </div>
-            <input type="submit" />
-        </form>
+        <>
+        <h1 id="hello">Add Your Own Trivia Question</h1>
+        <div id="form">
+            <form onSubmit={submitForm}>
+                <input id="formInput" onChange={newQuestionText} value={formQuestion} name="question" type="text" placeholder="New trivia question..."/>
+                    <select onChange={newCategory} value={category} name="category" id="dropDown">
+                        <option value="" disabled>Select a category</option>
+                        <option value="Entertainment">Entertainment</option>
+                        <option value="History">History</option>
+                        <option value="Sports">Sports</option>
+                        <option value="General Knowledge">General Knowledge</option>
+                        <option value="Politics">Politics</option>
+                        <option value="Animals">Animals</option>
+                        <option value="Science">Science</option>
+                        <option value="Vehicles">Vehicles</option>
+                    </select>
+                    <div id="radioButtons">
+                        <input type="radio" name="correct_answer" value={answer} onChange={newAnswerTrue} checked={answer}/>
+                         <label>TRUE</label>
+                        <input type="radio" name="correct_answer" value={!answer} onChange={newAnswerFalse}/>
+                        <label>FALSE</label>
+                    </div>
+                <input id="submit" type="submit" />
+            </form>
+        </div>
+        </>
     )
 }
 

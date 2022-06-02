@@ -1,10 +1,9 @@
 import React, { useState, useEffect } from "react";
-import { Container } from "semantic-ui-react";
 import NavBar from "./NavBar";
 import ChooseCategory from "./ChooseCategory";
 import About from "./About";
 import Form from "./Form";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
 
 function App() {
 

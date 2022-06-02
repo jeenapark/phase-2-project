@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { Card } from "semantic-ui-react";
 import Categories from "./Categories";
 import TriviaContainer from "./TriviaContainer";
 

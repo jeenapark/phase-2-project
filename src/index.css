@@ -1,4 +1,9 @@
 body {
+  background-color: rgb(198, 207, 214);
+  background-image: url("https://media2.giphy.com/media/PqKtdLXZYCJ4A/giphy.gif")
+}
+
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +15,212 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} */
+
+#description {
+  display: flex;
+  text-align: center;
+  background-color:rgb(3, 3, 3);
+  justify-content: space-evenly;
+  color: white;
+  border-radius: 18%;
+  padding: 5%;
+}
+
+#image {
+  display: block;
+  padding: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+#image {
+  animation: right-to-left 2s ease-in alternate,
+ left-to-right 2s ease-in alternate;
+  animation-delay: 500ms, 2s;
+}
+@keyframes left-to-right {
+50% {
+  transform: translateX(50%);
+}
+}
+@keyframes right-to-left {
+   50% {
+     transform: translateX(-50%)
+   }
+  }
+
+#navBar {
+  display: center;
+  margin-right: 200px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; 
+  text-align: center;
+}
+
+li {
+  color: rgb(246, 248, 250);
+  padding: 14px 16px;
+  display: inline-flex;
+  font-weight: bold;
+  font-size: 1.5vw;
+  border: 5px;
+  border-color: rgb(187, 52, 228);
+  border-style: solid;
+  border-radius: 10%;
+  text-align: center;
+  margin: auto;
+  width: 5%;
+  background-color: rgb(40, 30, 190);
+}
+
+p {
+  font-weight: bold;
+  font-size: 25px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding-bottom: 20px;
+  padding-top: 100px;
+}
+
+#cards {
+  display: center;
+  text-align: center;
+  padding: 20px;
+  border: 10px;
+  color: white;
+  border-color: white;
+  border-style: solid;
+  background-color: rgb(62, 89, 179);
+  font-size: 20px;
+}
+
+#score {
+  display: center;
+  text-align: center;
+  font-weight: bold;
+  background-color: black;
+  color: white;
+  margin: 5px 500px 10px 500px;
+  padding: 20px;
+}
+
+.category {
+  display: flex;
+  justify-content: space-evenly;
+  color: rgb(34, 28, 94);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+li:hover {
+  background-color: rgb(49, 26, 49);
+  color: rgb(162, 31, 167);
+}
+button {
+  background-color:rgb(34, 147, 175);
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: large;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+div#form {
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  margin: 0 auto;
+  width: 400px;
+  text-align: center;
+}
+
+h1#hello {
+  display: center;
+  text-align: center;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color:rgb(0, 0, 0)
+}
+#dropDown {
+padding: 20px;
+margin-top: 20px;
+margin-bottom: 20px;
+background-color:rgb(240, 224, 87);
+font-weight: bold;
+}
+#formInput {
+padding: 20px;
+padding-left: 80px;
+background-color: rgb(240, 224, 87)
+}
+#radioButtons {
+  height: 3em;
+  font-weight: bold;
+  font-size: 20px;
+  color:rgb(8, 8, 8);
+  
+}
+#submit {
+  background-color:rgb(240, 224, 87);
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: large;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+.category:hover {
+  background-color: rgb(109, 54, 109);
+  color: rgb(201, 50, 206);
+}
+
+#submitTriviaAnswer {
+  background-color:rgb(240, 224, 87);
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: large;
+  border-radius: 5px;
+}
+.header {
+  color: orange;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.tooltip:hover .tooltiptext {
+  display: flex;
+  top: -100px;
+  left: 220%;
+  visibility: visible;
+  font-size: 22px;
+  text-align: left;
+}
+
+.tooltip:hover {
+  position: relative;
+}
+
+.tooltiptext {
+  position: absolute;
+  visibility: hidden;
+}
+
+#counterText {
+  margin: 0px 0px 0px 0px;
+  font-weight:lighter;
+  color: black;
+  text-align: right;
+  display: flex;
+  justify-content: left;
+}
+
+.tooltip .tooltiptext::after {
+  content: " ";
+  position: absolute;
+  bottom: 100%;  /* At the top of the tooltip */
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent black transparent;
 }

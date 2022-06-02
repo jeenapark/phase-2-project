@@ -1,23 +1,22 @@
-import React, { useState, useEffect } from "react";
-import About from "./About";
-import Form from "./Form";
-import { BrowserRouter, Route, Switch, NavLink } from "react-router-dom";
+import React from "react";
+import { NavLink } from "react-router-dom";
 
 
 function NavBar() {
 
     return (
         <header>
-            <nav>
-                <NavLink to="/">
-                    <h2>About The Game</h2>
+            <nav id="navBar">
+                <NavLink exact className="button" to="/">
+                    <li className="active">About The Game</li>
                 </NavLink>
-                <NavLink to="/questions/new">
-                    <h2>Submit a new question</h2>
+                <NavLink exact className="button" to="/questions">
+                   <li>Play The Game</li>
                 </NavLink>
-                <NavLink to="/questions">
-                    <h2>Play</h2>
+                <NavLink exact className="button" to="/questions/new">
+                <li>Submit New Question</li>
                 </NavLink>
+                
             </nav>
         </header>
     )

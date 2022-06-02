@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { Card } from "semantic-ui-react";
 
 function TriviaCard({ question, counter, setCounter }) {
@@ -16,7 +16,7 @@ function TriviaCard({ question, counter, setCounter }) {
     }
 
     return (
-        <Card>
+        <Card id="cards">
             <div className="content">
                 <div className="header">{question.question}</div>
                 <form onSubmit={handleAnswer}>
@@ -24,7 +24,8 @@ function TriviaCard({ question, counter, setCounter }) {
                         <label>True</label>
                     <input onInput={handleChange} type="radio" name="truefalse" value="False"/>
                         <label>False</label>
-                    <input type="submit" />
+                        <br></br>
+                    <input id="submitTriviaAnswer" type="submit" />
                 </form>
             </div>
         </Card>
