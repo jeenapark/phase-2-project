@@ -1,36 +1,42 @@
 import React, { useState } from "react";
 
 function Form ({ handleAddQuestion }) {
-    const [ formData, setFormData ] = useState({
-            category: "",
-            type: "boolean",
-            difficulty: "easy",
-            question: "",
-            correct_answer: "",
-            incorrect_answers: [
-                ""
-            ],
-    });
+    const [ formQuestion, setFormQuestion ] = useState("");
+    const [ category, setCategory ] = useState("");
+    const [ answer, setAnswer ] = useState(false);
 
-    function handleChange(e) {
+
+    function newQuestionText(e) {
         e.preventDefault();
-        setFormData({
-            ...formData,
-            [e.target.name]: e.target.value,
-        });
+        setFormQuestion(e.target.value);
     }
    
+    function newCategory(e) {
+        e.preventDefault();
+        setCategory(e.target.value);
+    }
+
+    function newAnswerTrue(e) {
+        e.preventDefault();
+        setAnswer(true);
+    }
+
+    function newAnswerFalse(e) {
+        e.preventDefault();
+        setAnswer(false);
+    }
+
     function submitForm(e) {
         e.preventDefault();
 
         const newQuestionObj = {
-            category: formData.category,
+            category: category,
             type: "boolean",
             difficulty: "easy",
-            question: formData.question,
-            correct_answer: formData.correct_answer,
+            question: formQuestion,
+            correct_answer: answer.toString(),
             incorrect_answers: [
-                formData.correct_answer === "True" ? "False" : "True" 
+                (!answer).toString()
             ]
         };
 
@@ -46,25 +52,18 @@ function Form ({ handleAddQuestion }) {
         .then(resp => resp.json())
         .then(data => {
             handleAddQuestion(data);
-            setFormData({
-                category: "",
-                type: "boolean",
-                difficulty: "easy",
-                question: "",
-                correct_answer: "",
-                incorrect_answers: [
-                    ""
-                ]
-            })
-        });
+            setFormQuestion("");
+            setCategory("");
+            setAnswer(false);
+        })
     }
 
     return (
         <form onSubmit={submitForm}>
             <h3>Add New Trivia Question</h3>
-            <input onChange={handleChange} value={formData.question} name="question" type="text" placeholder="New trivia question..."/>
-                <select onChange={handleChange} name="category" id="dropDown">
-                    <option value="">Select a category</option>
+            <input onChange={newQuestionText} value={formQuestion} name="question" type="text" placeholder="New trivia question..."/>
+                <select onChange={newCategory} value={category} name="category" id="dropDown">
+                    <option value="" disabled>Select a category</option>
                     <option value="Entertainment">Entertainment</option>
                     <option value="History">History</option>
                     <option value="Sports">Sports</option>
@@ -74,10 +73,12 @@ function Form ({ handleAddQuestion }) {
                     <option value="Science">Science</option>
                     <option value="Vehicles">Vehicles</option>
                 </select>
-                    <input onChange={handleChange} type="radio" name="correct_answer" value="True"/>
+                <div>
+                    <input type="radio" name="correct_answer" value={answer} onChange={newAnswerTrue} checked={answer}/>
                     <label>True</label>
-                    <input onChange={handleChange} type="radio" name="correct_answer" value="False"/>
+                    <input type="radio" name="correct_answer" value={!answer} onChange={newAnswerFalse}/>
                     <label>False</label>
+                </div>
             <input type="submit" />
         </form>
     )
