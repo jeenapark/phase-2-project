@@ -14,13 +14,12 @@ function TriviaContainer({ filterByCategory }) {
     }
 
     return (
-        <Card.Group itemsPerRow={6}>
-           <div className="tooltip" id="score" onClick={resetScore} >
-           <h1>SCORE: {counter}</h1>
-           <p id="counterText" className="tooltiptext">CLICK on the score counter to reset the score and play again!</p>
-           </div>
+        <>
+            <div className="tooltip" onClick={resetScore}>SCORE: {counter}
+                <span id="counterText" className="tooltiptext">CLICK on the score counter to reset the score and play again!</span>
+            </div>
             {renderEachQuestion}
-        </Card.Group>
+        </>
     )
 }
 

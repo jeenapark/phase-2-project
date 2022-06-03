@@ -6,7 +6,6 @@ function TriviaCard({ question, counter, setCounter }) {
     let questAnswer = "";
 
     function handleChange(e) {
-        console.log(e.target.value);
         questAnswer = e.target.value;
     }
 

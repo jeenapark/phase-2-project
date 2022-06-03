@@ -1,17 +1,21 @@
 import React from "react";
 
-function Categories({ handleClick }) {
+function Categories({ handleClick, questions, active }) {
+
+    const newCategoryArr = questions.map((question) => {
+        return question.category;
+    })
+
+    let categorySet = new Set(newCategoryArr);
+    let uniqueCategories = Array.from(categorySet);
+
+    const renderCategoryButton = uniqueCategories.map((category) => {
+        return <button key={category} className={active === category ? "active" : ""} onClick={handleClick} value={category}>{category}</button>
+    });
     
     return (
         <div className="category">
-            <button className="category"  onClick={handleClick} value="Entertainment">Entertainment</button>
-            <button className="category" onClick={handleClick} value="History">History</button>
-            <button className="category" onClick={handleClick} value="Sports">Sports</button>
-            <button className="category" onClick={handleClick} value="General Knowledge">General Knowledge</button>
-            <button className="category" onClick={handleClick} value="Politics">Politics</button>
-            <button className="category" onClick={handleClick} value="Animals">Animals</button>
-            <button className="category" onClick={handleClick} value="Science">Science</button>
-            <button className="category" onClick={handleClick} value="Vehicles">Vehicles</button>
+            {renderCategoryButton}
         </div>
     )
 }

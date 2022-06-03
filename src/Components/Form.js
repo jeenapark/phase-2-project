@@ -61,7 +61,7 @@ function Form ({ handleAddQuestion }) {
         <h1 id="hello">Add Your Own Trivia Question</h1>
         <div id="form">
             <form onSubmit={submitForm}>
-                <input id="formInput" onChange={newQuestionText} value={formQuestion} name="question" type="text" placeholder="New trivia question..."/>
+                <input id="formInput" onChange={newQuestionText} value={formQuestion} name="question" type="text" placeholder="New trivia question..."/><br></br>
                     <select onChange={newCategory} value={category} name="category" id="dropDown">
                         <option value="" disabled>Select a category</option>
                         <option value="Entertainment">Entertainment</option>
